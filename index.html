@@ -3,10 +3,245 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avatar</title>
+    <title>Tarefa mod - 21</title>
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
-    <h1>Olá</h1>
+    <section class="hero">
+        <div class="hero__content">
+            <img src="./dist/images/000B.png" alt="Logo avatar rpg" class="hero__content__logo">
+        </div>
+    </section>
+
+    <section class="characters">
+        <h3 class="characters__content characters__content__title title--md">Lorem, ipsum dolor sit amet.</h3>
+        <div class="characters__content">
+            <button class="characters__content__buttons" data-character="atka">
+                <div class="characters__content__buttons__button">
+                    <img class="characters__content__buttons__button__img" src="./dist/images/100.png" alt="Atka">
+                    <div class="characters__content__buttons__button__overlay title--md">Atka</div>
+                </div>
+            </button>
+            <button class="characters__content__buttons" data-character="kaony">
+                <div class="characters__content__buttons__button">
+                    <img class="characters__content__buttons__button__img" src="./dist/images/201.png" alt="Kaony">
+                    <div class="characters__content__buttons__button__overlay title--md">Kaony</div>
+                </div>
+            </button>
+            <button class="characters__content__buttons" data-character="niran">
+                <div class="characters__content__buttons__button">
+                    <img class="characters__content__buttons__button__img" src="./dist/images/301.png" alt="Niran">
+                    <div class="characters__content__buttons__button__overlay  title--md">Niran</div>
+                </div>
+            </button>
+        </div>
+    </section>
+
+    <section class="mapa">
+        <div class="mapa__content">
+            <p class="text--md">
+                Atka, Kaony e Niran são novos personagens no universo de Avatar, cada um com habilidades únicas. Atka é um líder guerreiro, Kaony é um hábil curandeiro conectada à água, e Niran, um curioso explorador em busca de mistérios antigos. Juntos, eles trazem novas histórias, desafios e perspectivas ao mundo, explorando o equilíbrio entre poder e sabedoria.
+            </p>
+            <img id="map-image" class="mapa__content__image" src="./dist/images/001.png" alt="Mapa">
+            <div id="magnifier" class="mapa__content__magnifier"></div>
+            <p class="text--md">
+                No universo de Avatar, um mundo imenso e diverso se apresenta com paisagens deslumbrantes e culturas singulares. Desde templos antigos até cidades majestosas, cada lugar expressa tanto a harmonia quanto os desafios entre os quatro elementos. Aventurar-se por esse cenário é desvendar segredos ancestrais, mergulhar em tradições ricas e perceber a profunda ligação entre espiritualidade e natureza.
+            </p>
+        </div>
+    </section>
+    
+
+<!-- modais -->
+    <div id="modal-atka" class="modal">
+        <div class="modal__content">
+            <span class="modal__close">&times;</span>
+            <h3 class="title--md">Atka, o Último dos Corujas da Lua</h3>
+            <p class="text--md">
+                Atka é um órfão da Nação da Terra não dobrador, que cresceu isolado em um templo escondido na floresta próxima à Baía da Lua. Lá, foi treinado nas antigas artes e tradições do conventiculo da coruja, aprendendo a valorizar o silêncio e a conexão profunda com a natureza. Como seu último membro, ele sente uma responsabilidade imensa de manter viva a herança de sua família e honrar a memória de seu avô, seu mentor e guia espiritual. Atka busca autonomia para desenvolver suas habilidades espirituais e almeja conquistar respeito dentro da Nação da Água. Determinado a preservar as tradições do seu conventiculo, ele planeja juntar recursos para viajar até a Tribo da Água do Norte, onde acredita que encontrará respostas sobre seu irmão e pistas que o levem ao paradeiro de sua mãe desaparecida. Corajoso e resiliente, Atka está disposto a enfrentar qualquer desafio para descobrir seu verdadeiro propósito e cumprir seu destino.
+            </p>
+            <img class="modal__content__img" src="./dist/images/104.png" alt="">
+            <h3 class="title--sm">História de Atka</h3>
+            <p class="text--md">
+                Atka cresceu isolado em um cenário de serenidade e desafios na floresta da Baía da Lua, sob a tutela de Hanta, um sábio guerreiro da Tribo da Água, pertencente a divisão da Coruja da lua. Sua mãe, Xuan, havia sobrevivido ao ataque e, após a cura proporcionada por Hanta, pediu a Hanta que cuidasse de Atka enquanto ela partiu em busca para reunir sua família, um destino que a manteve longe de casa e sem notícias por mais de quinze anos. Durante sua infância, Hanta o criou e treinou como membro da tribo e o fez parte do conventiculo. Seus dias eram preenchidos com o treinamento intensivo de arco, uma arte que ele dominava com precisão e paixão. Durante seus estudos, Hanta encheu a vida de Atka com histórias sobre os espíritos. Uma dessas histórias é o próprio nascimento de Atka, Hanta conta como criou uma tempestade para esconder a lua e espantar o espírito Corina que roubou o irmão de Atka.
+                Aos 14 anos, Atka adestrou sua ave de caça, um par de corujas corujas. Com destreza e coragem, Atka superou todos os treinamento dos Corujas da lua, conquistando não uma mas três, a Marca do Sábio, Bravo e Confiável uma honra que simbolizava sua maturidade e habilidades. Quando completou 16 anos, Atka estava pronto para começar o seu treinamento prático espiritual e a morte de Hanta tirou isso dele. A morte de Hanta deixou um vazio profundo na vida de Atka, e a ausência de notícias sobre sua mãe acentuou sua sensação de perda. A morte de Hanta também tirou o lar de Atka. O templo foi tomado por militares do reino da terra. Sozinho, Atka se isolou na floresta, e em busca de propósito, Atka se envolveu-se com grupos de mercenários que protegiam caravanas na perigosa Passagem da Serpente. Seu trabalho variava entre escoltar mercadorias e aceitar missões diversas.
+                Agora, aos 19 anos, Atka é um homem de habilidades refinadas e uma alma moldada por desafios e perdas. Seu caminho é guiado pela memória de seu avô e pelo desejo de manter viva a tradição dos espíritos, se vingar do espírito que tomou seu irmão e sua mãe. Com sua determinação e coragem, Atka continua a enfrentar o mundo, sempre em busca de novas aventuras e oportunidades para demonstrar seu valor. 
+            </p>
+            <h3 class="title--sm">O Conventículo</h3>
+            <div class="modal__content__grids">
+                <img class="modal__content__grids__img" src="./dist/images/105.png" alt="">
+                <p class="text--md modal__content__grids__text ">
+                    O Conventículo da Coruja da Lua é uma ordem secreta dedicada a explorar os mistérios do mundo espiritual.
+                    Seus membros, chamados de "Corujas", combinam habilidades de dobra com práticas espirituais centradas na lua.
+                    As Corujas usam máscaras de argila moldadas e pintadas a cada ciclo lunar.
+                    A argila, retirada de cavernas sagradas, é moldada para representar as habilidades, o status espiritual e a casta de cada membro.
+                    As pinturas nas máscaras mudam com os ciclos lunares, refletindo a conexão com a lua e o estado espiritual dos membros.
+                    O conventículo conhece diversas subespécies de corujas, cada uma com uma função específica: corujas caçadoras para capturar presas, mensageiras para transportar mensagens, amplificadoras para fortalecer as dobras, e vigias para proteção.
+                    O treinamento com as corujas inclui combate, sobrevivência e exploração.<br><br>
+                    Os membros também estudam o mundo espiritual, desenvolvendo habilidades para sentir espíritos e realizar rituais durante eclipses lunares para manter o equilíbrio espiritual. Visitas ao mundo espiritual são restritas devido a perdas passadas, sendo permitidas apenas em casos extremos.    
+                </p>
+                <p class="text--md modal__content__grids__text ">
+                    <b class="text--md">Comunhão Espiritual e Transformações:</b> As Corujas realizam rituais noturnos ligados à lua. Todas as noites, banham-se nus em águas iluminadas pela lua para purificação e renovam suas pinturas. Durante eclipses lunares, realizam rituais sagrados e meditam profundamente no mundo espiritual.<br>
+                    <b class="text--md">Rituais e Devoção Lunar:</b> Durante a meditação, um espírito pode assumir o controle do corpo de uma Coruja, alterando a pintura da máscara e permitindo diferentes formas de agir. Essas transformações podem trazer tanto benefícios quanto desafios, tornando a experiência espiritual imprevisível e poderosa.
+                    Atka conhece profundamente os costumes e habilidades da ordem, mas busca desenvolver suas capacidades espirituais para alcançar um nível mais profundo de conexão com o mundo espiritual. Seu objetivo é honrar os costumes de seus ancestrais e conquistar uma posição de respeito e influência dentro da ordem.
+                </p>
+            </div>
+            <h3 class="title--md">Outros Traços Históricos, Familiares e Curiosidades</h3>
+            <h3 class="title--sm">Histórico Familiar</h3>
+            <div class="modal__content__grids">
+                <p class="text--md modal__content__grids__text ">
+                    Muito antes da Revolta dos Pescoços Amarelos, quando os ventos de inquietação começaram a soprar pelo Reino da Terra, um casal humilde, oriundo do anel inferior de Ba Sing Se, buscava um novo começo.
+                    Laozu Qiansheng e sua esposa grávida, Xuanzemu, desejavam escapar do tumulto crescente da cidade e encontrar paz em um lugar distante. Guiados por sonhos de serenidade e movidos por um espírito aventureiro, partiram rumo a Omashu, uma cidade nas vastas areias do deserto de Si Wong.
+                    Durante sua longa jornada, ao se aproximarem da lendária Passagem da Serpente—uma trilha cercada de histórias de perigos e desafios—eles foram surpreendidos por um grupo de saqueadores.
+                    <br>Determinado a proteger sua esposa e o filho ainda não nascido, Qiansheng enfrentou os agressores com coragem, mas acabou sendo gravemente ferido. Xuanzemu, tomada pelo pânico e pela urgência de salvar o bebê, fugiu em direção à Baía da Lua.
+                    Lá do alto, uma monja do ar, viajando em seu majestoso bisão voador, ouviu os gritos de socorro e desceu rapidamente, dispersando os saqueadores com poderosas rajadas de vento.
+                    Apesar de sua intervenção, Qiansheng já havia partido.<br>
+                    Xuanzemu, dilacerada pela dor e pela perda, entrou em trabalho de parto ali mesmo na baira d’água.
+                    A monja do ar, com compaixão, correu para ajudá-la. No silêncio da noite, o choro de um recém-nascido quebrou a quietude, trazendo um momento de esperança em meio ao desespero.
+                    Com lágrimas escorrendo pelo rosto, Xuanzemu segurou seu filho por um breve instante, agradecendo à monja com um sussurro frágil antes de desmaiar novamente.
+                </p>
+                <img class="modal__content__grids__img" src="./dist/images/101.png" alt="">
+                <p class="text--md modal__content__grids__text ">
+                    Uma tempestade começou a se formar, as nuvens cobriram a lua e a monja, preocupada, segurou o bebê nos braços.
+                    Quando ouviu um estalo e gritos por entre as árvores, soube que precisava partir rapidamente.
+                    Ela sabia que não podia interferir nas questões internas da Nação da Terra, mas também não podia deixar o bebê indefeso. Decidiu, então, levá-lo para um lugar seguro.
+                    <br>De repente, do meio das arvores surgiu Hanta, um navegante da Tribo da Água, conhecido por sua sabedoria e bravura.
+                    Ele correu ao auxílio de Xuanzemu, que recobrou a consciência por um breve momento quando novas contrações começaram.
+                    Hanta olhou assustado pela trilha, desviando olhar de Xuanzemu, temendo que os saqueadores voltassem, Hanta carregou Xuanzemu em seus braços velhos e cansados para dentro d’água e, para sua surpresa, notou que ela segurava outro bebê—um segundo filho.
+                    Este bebê, no entanto, tinha a pele pálida, aroxeada, como a plumagem de uma coruja. “Ukpaaq,” murmurou Hanta, observando o bebê com atenção.
+                    <br>Como se tivesse ouvido o chamado de um velho amigo, o bebê abriu os olhos e respirou fundo, sua pele retomando o tom natural de um recém-nascido. Hanta sorriu suavemente e sussurrou: “Atka,” o espírito guardião.
+                    Hanta sentiu como se o próprio universo tivesse dado a ele o filho que nunca teve. 
+                </p>
+            </div>
+            <h3 class="title--sm">Ancestral</h3>
+                <div class="modal__content__grids">
+                    <p class="text--md modal__content__grids__text ">
+                    Atka tem um ancestral chamado Laozu Kanjiao, que significa “o velho ancestral que viu a coruja”. Sua história remonta a um tempo mais antigo, quando a Biblioteca escondida no deserto de Si Wong ainda era mais acessível. Hoje, a Biblioteca é guardada por Wan Shi Tong, um espírito com a forma de uma coruja, que dedica sua existência a acumular e preservar conhecimentos para compartilhar com a humanidade. Sua missão é inspirar as pessoas a usarem o saber para enriquecer suas vidas e suas civilizações. O mencionado ancestral, que pode ser considerado o tataravô de Atka, procurou a Biblioteca com um coração cheio de esperança e desespero. Sua filha, afligida por uma doença terrível que causava fissuras em seu corpo e lhe roubava a visão, necessitava de ajuda urgente. Kanjiao desejava encontrar Wan Shi Tong, acreditando que o espírito poderia salvar sua filha. Wan Shi Tong, com sua sabedoria e benevolência, acolheu o pedido de Kanjiao e mergulhou em sua vasta coleção de conhecimentos. No entanto, a única solução encontrada era um antigo segredo de dobra espiritual, além do alcance dos humanos. Movido pelo desespero e pelo amor de Kanjiao por sua filha, o espírito decidiu intervir diretamente, algo que ia contra seu princípio de não interferência na vida humana. Ele expurgou a doença espiritual do corpo da menina, mas a cegueira persistiu. Wan Shi Tong explicou a Kanjiao que, com o tempo e a cura completa, a filha poderia desenvolver outros meios de enxergar. Em gratidão, Kanjiao prometeu transmitir a todas as gerações futuras a história da generosidade do espírito guardião. Contudo, devido à migração dos pais de Atka e ao tempo que passou, a memória desse milagre se perdeu, e não restaram registros vivos sobre o evento.
+                    </p>
+                    <img class="modal__content__grids__img" src="./dist/images/102.png" alt="">
+                </div>
+            <h3 class="title--sm">A lenda de Corina</h3>
+                <div class="modal__content__grids">
+                    <img class="modal__content__grids__img" src="./dist/images/103.png" alt="">
+                    <p class="text--md modal__content__grids__text ">
+                        Corina era uma noviça em um monastério remoto, dedicado à busca pela iluminação espiritual e ao equilíbrio interior. Desde pequena, Corina demonstrava uma curiosidade insaciável pelos mistérios do mundo e uma tendência a questionar as tradições ortodoxas de seus mestres. Sua inquietação a levou a explorar as escrituras proibidas e conhecimentos esquecidos guardados nas profundezas do monastério. Depois de conquistar suas tatuagens, Corina descobriu um pergaminho antigo e empoeirado. Este pergaminho continha os segredos de uma forma de dobra espiritual proibida, uma técnica que se conectaria com os espíritos e que envolvia conhecimentos ocultos da tribo da Água. Movida pela ambição e uma fome insaciável por poder, ela realizou um ritual proibido que a conectou com uma entidade antiga e maléfica que habitava o mundo espiritual. O ritual lhe concedeu o poder de andar entre os espíritos, mas a um custo terrível: sua alma foi marcada. Após o ritual, Corina foi banida do monastério e amaldiçoada a vagar pelo mundo como uma exilada, agora conhecida como um "Espírito". Sua aparência foi transformada pela magia espiritual – sua pele tornou-se pálida como a lua, sua tatuagens sumiram, seus olhos brilhavam com um brilho sombrio e seu cabelo se fez longo e negro como o abismo. Com a nova identidade, ela ganhou a capacidade de convocar espíritos e dominar forças que antes estavam além da compreensão humana. Sua missão agora era entender os limites do seu novo poder e descobrir uma maneira de reverter a maldição ou abraçá-la por completo. As lendas contam que Corina aparece em noites de lua cheia em seu bisão voador mergulhando de cidade em cidade, oferecendo seus serviços a quem pode pagar o preço. Algumas histórias a descrevem ajudando aqueles que estão desesperados, enquanto outras relatam sua aliança com forças sinistras para alcançar seus objetivos obscuros.
+                    </p>
+                </div>
+                <p class="text--sm aviso">
+                    Esses textos são obras de ficção escritas por Adriel Arthur e Lucas Linarelo, baseadas na franquia Avatar - RPG. Portanto, não os considerem como informações oficiais sobre a série.
+                </p>
+        </div>
+    </div>
+    <div id="modal-kaony" class="modal">
+        <div class="modal__content">
+
+            <span class="modal__close">&times;</span>
+            <h3 class="title--md">Kaony, o Lírio da Neve</h3>
+            <p class="text--md">
+                Kaony é um jovem idealista de 15 anos, nascido em uma família rica e nobre da Tribo da Água do Norte. Seu comportamento reflete uma combinação de profunda compaixão, luto silencioso e uma seriedade resoluta. Guiado por princípios inabaláveis, Kaony sempre se compromete a falar a verdade, nunca recusar um pedido de ajuda e enfrentar corajosamente qualquer adversário.
+                Treinado nas artes de combate e cura, ele possui a habilidade de manipular vinhas e raízes para criar um chicote, que utiliza tanto para imobilizar seus oponentes quanto para melhorar sua agilidade e movimentação durante as lutas.    
+            </p>
+            <img class="modal__content__img" src="./dist/images/204.png" alt="">
+            <h3 class="title--sm">História de kaony</h3>
+            <p class="text--md">
+                A vida de Kaony mudou drasticamente aos 8 anos, quando seus pais foram vítimas de uma emboscada mortal pela Ordem do Alvorecer. Durante uma viagem de negócios, a família foi atacada nas primeiras horas do amanhecer. Os saqueadores surgiram das sombras, arrastando seus pais para fora da carruagem. O pai de Kaony foi morto a facadas enquanto sua mãe, paralisada de terror, chorava sobre o corpo do marido. Congelado pelo medo, Kaony testemunhou o horror sem conseguir se mover. Os saqueadores capturaram sua irmã mais nova, Tanini, uma criança de apenas 3 anos, proclamando que ela seria uma "aquisição". Em um último e desesperado ato de coragem, a mãe de Kaony tentou resgatar a filha, mas foi golpeada fatalmente na nuca. Sob a luz fria do amanhecer, Kaony permaneceu paralisado, enquanto sua família era destruída diante de seus olhos.
+                No dia do funeral de seus pais, o General Tanuk, um veterano aposentado e amigo próximo da família, comovido pela tragédia de Kaony, decidiu acolhê-lo. Compreendendo o desejo fervoroso do jovem de resgatar sua irmã, Tanuk dedicou-se a treiná-lo nas artes militares. Kaony demonstrou um talento natural para a dobra de água e plantas, e durante os sete anos seguintes, o General Tanuk o instruiu incansavelmente nas técnicas de combate e cura.
+                Após anos de treinamento rigoroso, Kaony enfrentou seu teste final: caçar e trazer a pele de um cão-urso, uma fera feroz das regiões inóspitas do Polo Norte. Com determinação e coragem, ele superou o desafio, provando que estava pronto para seguir seu próprio caminho. Agora, com habilidades afiadas e um espírito resoluto, Kaony se prepara para partir em uma jornada solitária em direção ao Reino da Terra, o último local conhecido de atividade da Ordem do Alvorecer. 
+            </p>
+            <h3 class="title--md">Outros Traços Históricos, Familiares e Curiosidades</h3>
+            <h3 class="title--sm">A Videira</h3>
+            <div class="modal__content__grids">
+                <p class="text--md modal__content__grids__text ">
+                    <b class="text--md">A videira</b> é uma unidade de elite dentro do exército da Tribo da Água do Norte, composta por dobradores altamente treinados que passam por um rigoroso regime de sobrevivência extrema. O treinamento inclui técnicas avançadas para fazer a vida florescer até nas condições mais adversas, desenvolvendo habilidades para dobrar água e plantas de maneiras inovadoras e adaptáveis. Além disso, seus membros são treinados até a exaustão em combate corpo a corpo, técnicas de dobragem ofensiva e defensiva, e habilidades de cura com plantas medicinais e água. O programa de treinamento é brutal e impiedoso, focando em resiliência física e mental, bem como em disciplina e trabalho em equipe. Graduados da "Videira" são reconhecidos por sua capacidade de improvisar e adaptar-se em qualquer ambiente, sejam eles campos de batalha congelados ou florestas densas, e são considerados os protetores mais versáteis e capazes da Tribo da Água do Norte.     
+                </p>
+                <img class="modal__content__grids__img" src="./dist/images/202.png" alt="">
+            </div>
+            <h3 class="title--sm">A Ordem do Alvorecer e o Orvalho do Deserto</h3>
+            <div class="modal__content__grids">
+                <p class="text--md modal__content__grids__text ">
+                    A Ordem do Alvorecer é um grupo de fanáticos religiosos que opera nas sombras, movendo-se silenciosamente como uma lenda sussurrada entre aqueles que já ouviram falar de seus atos sombrios. Conhecidos por atacar com a precisão de uma lâmina ao primeiro raio de sol, seus membros são mestres da furtividade, sequestrando indivíduos durante suas missões e doutrinando-os sob um regime rigoroso e implacável. Suas ações são rápidas e silenciosas, e suas vítimas muitas vezes desaparecem sem deixar rastros, transformando-se em agentes leais à sua causa obscura. A Ordem é quase invisível aos olhos do mundo, mas sua presença é sentida em histórias de medo e mistério, um sussurro de uma ameaça que surge com a aurora e desaparece tão rapidamente quanto veio. 
+                </p>
+                <img class="modal__content__grids__img" src="./dist/images/203.png" alt="">
+                <p class="text--md modal__content__grids__text ">
+                    Tanini, agora conhecida como "Orvalho", é a irmã mais nova de Kaony, sequestrada pela Ordem do Alvorecer quando tinha apenas 3 anos. Agora, aos 10 anos, Tanini tornou-se uma das mais habilidosas saqueadoras da ordem. Sob a orientação impiedosa de seus mestres, ela foi moldada para se tornar uma guerreira silenciosa, letal e inabalável. Movendo-se com a graça de uma sombra e a precisão de uma lâmina, Tanini é implacável em sua devoção à Ordem. Ela é vista como um prodígio dentro do grupo, uma flor que desabrochou na escuridão, uma jovem cujo coração e mente foram forjados na chama fria do fanatismo. Seu talento para furtividade e combate a fez ganhar o respeito dos seus superiores, mas o brilho nos olhos de Tanini, agora sombrios e distantes, guarda o eco de um passado que ela mal consegue lembrar. 
+                </p>
+            </div>
+            <p class="text--sm aviso">
+                Esses textos são obras de ficção escritas por Adriel Arthur e Lucas Linarelo, baseadas na franquia Avatar - RPG. Portanto, não os considerem como informações oficiais sobre a série.
+            </p>
+        </div>
+    </div>
+    <div id="modal-niran" class="modal">
+        <div class="modal__content">
+            <span class="modal__close">&times;</span>
+            <h3 class="title--md">Niran, o Erudito</h3>
+            <p class="text--md">
+                Doyun Niranjan é um monge, um órfão dobrador de terra que cresceu e foi treinado no Templo do Ar do Norte. Ele quer compreender sua origem, porém, possui uma tradição milenar que o acolheu e que agora deve ajudar a preservar. Acredita que a melhor forma de fazer isso é conhecer, compreender e orientar aqueles que precisarem dele e de sua sabedoria, que na verdade ainda não é um grande destaque. Tem como principal valor a ideia de que a esperança, o conhecimento e a prática justa da bondade e moderação guiam à liberdade e paz espiritual.
+            </p>
+            <img class="modal__content__img" src="./dist/images/302.png" alt="">
+            <p class="text--md">
+                Desde pequeno, Doyun enfrentou certas dificuldades com os treinamentos tradicionais de dobra elementar oferecidos pelos monges do Templo do Ar. Embora tenha dominado as técnicas de meditação, autodefesa, e até atravessado os portões de vento – considerado uma prova de habilidade crucial para os dobradores de ar - ele nunca conseguiu dobrar o elemento. Sua frustração crescia a cada falha, mas os monges mais velhos, conhecendo sua origem no Reino da Terra, compreendiam o motivo. No entanto, nunca se preocuparam em investigar se ele possuía uma afinidade com o elemento da terra.
+
+                Aos 8 anos, durante uma brincadeira de pique-esconde com os outros monges... Doyun tropeçou e foi arremessado através de uma janela, caindo de uma grande altura em direção ao cume de uma rocha. Num instante crítico, algo inesperado aconteceu: instintivamente, ele transformou a rocha em finos grãos areia, amortecendo totalmente sua queda. Esse evento revelou uma verdadeira habilidade como dobrador de terra e deixou os outros monges ao redor perplexos, pois também não sabiam nada da origem do garoto.
+                
+                Após esse incidente, Doyun ficou sob a tutela permanente de Irmão Sumit, e foi quando começou a questionar a origem de sua habilidade. O conhecimento sobre seu passado, no entanto, permaneceu oculto, e ele foi proibido de praticar sua dobra nas proximidades das estruturas do templo, por precaução para não destruir nada.
+                
+                Sob a supervisão do Irmão Sumit, o guardião da biblioteca do Templo do Ar do Norte e um mestre reconhecido por seu vasto conhecimento sobre as variadas formas de dobra, Doyun começou a desenvolver um estilo único de dobra. Ao longo dos anos, combinando os movimentos leves e graciosos dos dobradores de ar com sua afinidade de dobra de terra, ele criou uma técnica baseada no controle de pequenas partículas de terra que se transformavam em areia ou poeira. Essa técnica lhe permitia formar nuvens densas de poeira, que podiam ser manipuladas como o vento, ou moldadas em formas específicas para defesa e contra-ataque. Seu estilo é focado em evitar confrontos diretos, utilizando a terra de forma sutil e precisa.
+                
+                A tutoria do Irmão Sumit despertou em Doyun uma profunda curiosidade sobre o mundo exterior, os outros elementos, e as diferentes formas de dobra. Embora seu acesso ao mundo além do templo seja limitado, ele explora incansavelmente o conhecimento através das muitas páginas dos livros da enorme biblioteca do templo, sempre em busca de compreender mais sobre sua própria habilidade e sobre o mundo que o cerca, e, por esse motivo, Doyun já é indicado como um grande potencial para substituir Irmão Sumit no futuro. 
+            </p>
+            <h3 class="title--sm">Antecedente Monástico</h3>
+            <div class="modal__content__grids">
+                <p class="text--md modal__content__grids__text ">
+                    Doyun, sendo um monge do Templo do Ar do Norte, um lugar onde a paz e a segurança são os pilares de nossa existência, segue os ensinamentos de seus irmãos e superiores, os quais distanciam- se dos conflitos do mundo exterior, dedicando-se à preservação de sua cultura e tradições milenares. Esse estilo de vida é marcado pela moderação e pela meditação, focada na harmonia com a natureza e no cultivo de uma espiritualidade profunda.
+                    No entanto, a jornada interior de Doyun é mais complexa. Muitas vezes, enquanto medita sobre sua existência, é confrontado por perguntas sobre sua verdadeira origem. Há uma inquietação dentro dele, um impulso para buscar respostas que talvez estejam além dos limites do templo. Mas sabe que essa busca pode perturbar a tranquilidade do seu espírito e lhe afastar do caminho que seus irmãos trilham com tanta devoção.
+                    Apesar dessas dúvidas, é profundamente grato pela educação e pelo acolhimento que recebeu de seus irmãos e superiores. Eles lhe ensinaram a importância da bondade, da liberdade e da paz espiritual. Sente que é seu dever honrar essa tradição, participando e auxiliando nos rituais que preservam o legado cultural e espiritual, além de orientar aqueles que necessitam de sua ajuda dentro do templo. Contudo, há uma voz interior que insiste que sua paz verdadeira só será encontrada quando descobrir sua própria verdade, um conhecimento que pode exigir passos e conhecimentos que estão além das paredes do templo. 
+                </p>
+                <img class="modal__content__grids__img" src="./dist/images/303.png" alt="">
+            </div>
+            <h3 class="title--md">Outros Traços Históricos, Familiares e Curiosidades</h3>
+            <h3 class="title--sm">Ancestral</h3>
+            <div class="modal__content__grids">
+                <img class="modal__content__grids__img" src="./dist/images/102.png" alt="">
+                <p class="text--md modal__content__grids__text ">
+                    Doyun possui um ancestral chamado Laozu Kanjiao (significa “o velho ancestral que viu a coruja”), que remonta a um tempo mais antigo, quando a biblioteca escondida no deserto de Si Wong era mais acessível. Atualmente, Wan Shi Tong, “um espírito parecido com uma coruja”, preside a Biblioteca, acumulando e preservando conhecimentos a fim de compartilhar com a humanidade, na esperança de que eles o usem para melhorar a si mesmos e a suas civilizações! O mencionado ancestral, que numa árvore genealógica pode ser considerado o tataravô de Doyun, haveria buscado a biblioteca, para encontrar diretamente Wan Shi Tong, para que pudesse ajudar a curar sua filha que sofria de uma terrível doença que fazia aparecer fissuras pelo seu corpo, além de ter tomado sua visão. Wan Shi Tong teria recebido o pedido de Kanjiao com muito boa disposição. O espírito então buscou em sua enorme biblioteca uma solução, tendo encontrado apenas um conhecimento muito antigo, que, infelizmente, nenhum ser humano era capaz de manipulá-lo, pois se referia à um tipo de dobra espiritual. Wan Shi Tong, vendo o desespero de Kanjiao pela vida da filha, resolveu fazer o trabalho ele mesmo, algo que ia contra o princípio de não-interferência direta na vida humana; se tratava de algo muito simples, pois a doença, que na verdade era espiritual, deveria ser expurgada do corpo da criança. Tendo feito o expurgo, as feridas do corpo da criança se curaram, proém, a cegueira continuava; Wan Shi Tong explicou que sua filha poderia desenvolver outros meios para enxergar, assim que estivesse mais saudável. De imediato, Kanjiao ficou extremamente grato ao espírito, jurando lembrar a todas as gerações que o sucedessem sobre a benevolência do espírito para com sua filha, carne de sua carne, sangue de seu sangue, sua linhagem. Infelizmente, por conta da tentativa de migração dos pais de Doyun de sua terra natal, tal fato foi esquecido no tempo, não havendo nenhum registro ou memória viva sobre “o milagre”. Apesar disso, Wang Shi Tong ainda reside e zela pela biblioteca, com as mesmas intenções, mesmo diante de todos os conflitos que assolam o momento presente.
+                    <br>→ O livro coletado e deixado por Matangi junto de Doyun é um livro muito antigo, por isso surrado. O livro passou por gerações e gerações da família de Doyun, contendo nomes e contos de familiares, gravuras de tempos antigos e menção a outros objetos de valor familiar. A língua presente no objeto é muito antiga, e, portanto, não pôde ser compreendida pelos pais de Doyun, tendo estes apenas incorporado a tradição familiar repassada de forma oral, e com a pobreza que assolou a família em tempos mais recentes, o livro e alguns poucos objetos de valor foi o que restou. O livro agora está presente numa seção privada da Biblioteca do Templo do Norte, não sendo acessível ainda à Doyun; Namthöse é o único que pode conceder acesso a Doyun ao livro. 
+                </p>
+            </div>
+            <h3 class="title--sm">Histórico Familiar</h3>
+            <div class="modal__content__grids">
+                <p class="text--md modal__content__grids__text ">
+                    Muito antes da Revolta dos Pescoços Amarelos, quando os ventos de inquietação começaram a soprar pelo Reino da Terra, um casal humilde, oriundo do anel inferior de Ba Sing Se, buscava um novo começo. Laozu Qiansheng e sua esposa grávida, Xuanzemu, desejavam escapar do tumulto crescente da cidade e encontrar paz em um lugar distante. Guiados por sonhos de serenidade e movidos por um espírito aventureiro, partiram rumo a Omashu, uma cidade nas vastas areias do deserto de Si Wong.
+
+                    Durante sua longa jornada, ao se aproximarem da lendária Passagem da Serpente—uma trilha cercada de histórias de perigos e desafios—eles foram surpreendidos por um grupo de saqueadores. Determinado a proteger sua esposa e o filho ainda não nascido, Qiansheng enfrentou os agressores com coragem, mas acabou sendo gravemente ferido. Xuanzemu, tomada pelo pânico e pela urgência de salvar o bebê, fugiu em direção à Baía da Lua. Lá do alto, uma monja do ar, viajando em seu majestoso bisão voador, ouviu os gritos de socorro e desceu rapidamente, dispersando os saqueadores com poderosas rajadas de vento. Apesar de sua intervenção, Qiansheng já havia partido.
+                    
+                    Xuanzemu, dilacerada pela dor e pela perda, entrou em trabalho de parto ali mesmo na beira d’água. A monja do ar, com compaixão, correu para ajudá-la. No silêncio da noite, o choro de um recém- nascido quebrou a quietude, trazendo um momento de esperança em meio ao desespero. Com lágrimas escorrendo pelo rosto, Xuanzemu segurou seu filho por um breve instante, agradecendo à monja com um sussurro frágil antes de desmaiar novamente. Sentindo a vida se esvair, Xuanzemu pronunciou suas últimas palavras: “Cuide bem do meu filho. Seu nome será...” E antes que pudesse completar a frase, nomeando seu filho, a jovem mãe faleceu, deixando o recém-nascido nos braços da monja.
+                    
+                    Uma tempestade começou a se formar, as nuvens cobriram a lua e a monja, preocupada, segurou o bebê nos braços. Quando ouviu um estalo e gritos por entre as árvores, soube que precisava partir rapidamente.    
+                </p>
+                <img class="modal__content__grids__img" src="./dist/images/101.png" alt="">
+                <p class="text--md modal__content__grids__text ">
+                    A única coisa que poderia ser feita no momento era levar a criança para um local onde estivesse a salvo. Ela sabia que não podia interferir nas questões internas da Nação da Terra, mas também não podia deixar o bebê indefeso. Decidiu, então, levá-lo para um lugar seguro. Antes de partir, a monja procurou nas coisas do casal falecido por algo que ao menos desse ao recém-nascido uma memória de seus pais no futuro. Encontrando um livro surrado entre os pertences, pegou-o e, com o bebê em seus braços, seguiu seu destino em direção ao Templo do Ar Oriental.
+                    A chegada da criança no Templo não foi bem recebida pelos monges e pela Anciã, líder do templo Oriental, e nem mesmo pelas outras monjas que ali residiam. Porém, a monja, revelando ser Matangi, insistiu no acolhimento da criança, conseguindo convencer a Anciã de ao menos enviar a criança para onde pudesse estar a salvo. O destino da criança foi o Templo do Ar do Norte. Namthöse, o Ancião deste templo não queria acolher a criança, pois poderia comprometer a paz do templo, e envolver os monges em conflitos que não eram desejados. Entretanto, a Anciã conseguiu entrar em acordo: a criança ficaria, desde que o Templo do Ar Oriental se reservasse de se envolver em qualquer conflito da região. Namthöse já antevia o caos que tomaria o reino da Terra, com potencial de envolver o Templo do Ar Oriental.
+                    A criança encontrada por Matangi foi deixada junto do livro surrado; foi então nomeada Doyun Niranjan, nome que poderia ter um significado profundo, como "aquele que segue o caminho da luz e é puro" ou "líder iluminado e sem ilusões". Uma vez que havia se tornado o último de sua família, seu nome conectava significados como sabedoria e pureza. O livro encontrado por Matangi foi entregue ao Irmão Sumit, um monge que trabalhava na Biblioteca do Templo. Irmão Sumit, após ler o conteúdo do livro, rapidamente alertou o Conselho dos Anciãos do Templo do Ar do Norte, sendo determinado que Doyun não teria acesso ao livro, uma vez que seu conteúdo poderia causar problemas no futuro; desta forma, durante sua infância lhe contaram apenas do episódio de resgate por Matangi e sua chegada ao Templo do Ar do Norte.
+                </p>
+            </div>
+                <p class="text--sm aviso">
+                    Esses textos são obras de ficção escritas por Adriel Arthur e Lucas Linarelo, baseadas na franquia Avatar - RPG. Portanto, não os considerem como informações oficiais sobre a série.
+                </p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="text--sm">
+                © Avatar. Todos os direitos reservados.
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./src/js/mapa.js"></script>
+    <script src="./src/js/modal.js"></script>
 </body>
 </html>

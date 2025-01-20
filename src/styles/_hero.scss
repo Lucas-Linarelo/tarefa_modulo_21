@@ -1,0 +1,29 @@
+@use 'variaveis';
+
+.hero {
+    min-height: 105vh;
+    background-image: url(../images/000.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 768px){
+        margin: -12vh 0 0 0;
+        min-height: 120vh;
+    }
+
+    &__content {
+        position: relative;
+        @media (max-width: 768px){
+            position: absolute;
+            top: 80vh;
+        }
+        &__logo {
+            max-height: 15em;
+            max-width: 100%;
+            object-fit: contain;
+        }
+    }
+}

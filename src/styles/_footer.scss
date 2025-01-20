@@ -1,0 +1,16 @@
+.footer{
+    &__container{
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+
+        p{
+            margin: 3em auto 1em;
+            @media (max-width: 768px){
+                padding: 0 16px;
+                text-align: center;
+            }
+        }
+    }
+}

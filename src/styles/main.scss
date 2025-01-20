@@ -1,3 +1,48 @@
-*{
-    background-color: aliceblue;
+@use 'variaveis';
+@use 'hero';
+@use 'mapa';
+@use 'characters';
+@use 'modal';
+@use 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Airbender, sans-serif;
+}
+body {
+    background-color: variaveis.$cor00;
+}
+
+@mixin text($fontSize: 16px) {
+    font-size: $fontSize;
+    line-height: calc(#{$fontSize} + 10px);
+    color: variaveis.$cor02;
+    font-family: Poppins;
+}
+@mixin title($fontSize: 40px) {
+    @include text($fontSize);
+    color: variaveis.$cor01;
+}
+.title--bg{
+    @include text(44px);
+    font-family: Airbender;
+}
+.title--md{
+    @include text(30px);
+    font-family: Herculanum;
+}
+.title--sm{
+    @include text(20px);
+    font-family: Herculanum;
+}
+.text--bg{
+    @include text(18px);
+}
+.text--md{
+    @include text(16px);
+}
+.text--sm{
+    @include text(12px);
 }

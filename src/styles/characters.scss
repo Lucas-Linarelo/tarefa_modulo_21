@@ -1,0 +1,78 @@
+@use 'variaveis';
+.characters__content {
+    padding: 0 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vh;
+    margin: 0 auto;
+    max-width: 1500px;
+    @media (max-width: 768px){
+        padding: 0 3svh;
+    }
+    &__title{
+        margin: 2vh auto 5vh;
+        @media (max-width: 768px){
+            hyphens: auto;
+            word-wrap: break-word;
+            margin: 3vh auto;
+            text-align: center;
+        }
+    }
+    &__buttons{
+        cursor: pointer;
+        position: relative;
+        width: 25%;
+        overflow: hidden;
+        background-color: transparent;
+        padding: 0;
+        margin: 0 2vh;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 100vh;
+        @media (max-width: 768px){
+            width: 100%;
+            height: 30vh;
+            background-color: variaveis.$cor02;
+            border-radius: 10%;
+        }
+        &__button{
+        &__img{
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: contain;
+            opacity: 0.9;
+            @media (max-width: 768px){
+                margin: 10vh 0 0 0;
+                object-fit: none;
+                opacity: .5;
+                object-position: top;
+            }
+        }
+        &__overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            @media (max-width: 768px){
+                opacity: 1;
+            }
+        }
+        &__overlay.title--md{
+            color: variaveis.$cor00;
+        }
+        &:hover &__overlay, &:hover &__img {
+            opacity: 1;
+        }
+        }
+    }
+}

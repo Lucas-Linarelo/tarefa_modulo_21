@@ -1,0 +1,40 @@
+@use 'variaveis';
+.mapa__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 2vh 0;
+    max-width: 1360px;
+    margin: 0 auto;
+
+    &__image {
+        max-width: 90%;
+        max-height: 85vh;
+        object-fit: contain;
+    }
+
+    p {
+        text-align: justify;
+        hyphens: auto;
+        word-wrap: break-word;
+        padding: 0;
+        line-height: 1.5;
+        max-width: 87%;
+        margin: 2vh 0;
+    }
+
+    &__magnifier {
+        display: none;
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        border: 2px solid variaveis.$cor01;
+        pointer-events: none;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+}
+
+
